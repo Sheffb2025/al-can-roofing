@@ -37,9 +37,13 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-brand-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">AC</span>
-              </div>
+              <img
+                src="/logo.jpg"
+                alt="AL-CAN Roofing logo"
+                width={40}
+                height={40}
+                className="w-10 h-10 rounded-lg object-cover"
+              />
               <h3 className="text-xl font-bold">AL-CAN Roofing</h3>
             </div>
             <p className="text-gray-400 mb-4">

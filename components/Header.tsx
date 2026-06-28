@@ -37,9 +37,13 @@ export default function Header() {
         <div className="section-container flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-brand-primary to-brand-secondary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">AC</span>
-            </div>
+            <img
+              src="/logo.jpg"
+              alt="AL-CAN Roofing logo"
+              width={44}
+              height={44}
+              className="w-11 h-11 rounded-lg object-cover"
+            />
             <span className="hidden sm:block font-bold text-lg text-brand-secondary group-hover:text-brand-primary transition-colors">
               AL-CAN Roofing
             </span>
