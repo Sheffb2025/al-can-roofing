@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     address: true,
   },
   openGraph: {
-    type: 'business.business',
+    type: 'website',
     url: businessUrl,
     siteName: businessName,
     title: 'AL-CAN Roofing | Professional Roofing Services',
